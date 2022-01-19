@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4312EBFF279823B800FD86D6 /* TamagotchiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312EBFE279823B800FD86D6 /* TamagotchiTest.swift */; };
+		4312EC072798241200FD86D6 /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312EC062798241200FD86D6 /* Tamagotchi.swift */; };
+		4312EC0B2798243600FD86D6 /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312EC062798241200FD86D6 /* Tamagotchi.swift */; };
 		435BC547279817C600A79C4C /* TamagotchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BC546279817C600A79C4C /* TamagotchiApp.swift */; };
 		435BC549279817C700A79C4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BC548279817C700A79C4C /* ContentView.swift */; };
 		435BC54B279817CF00A79C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435BC54A279817CF00A79C4C /* Assets.xcassets */; };
 		435BC54E279817CF00A79C4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435BC54D279817CF00A79C4C /* Preview Assets.xcassets */; };
-		435BC559279817D000A79C4C /* TamagotchiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BC558279817D000A79C4C /* TamagotchiTests.swift */; };
 		435BC564279817D000A79C4C /* TamagotchiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BC563279817D000A79C4C /* TamagotchiUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4312EBFE279823B800FD86D6 /* TamagotchiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiTest.swift; sourceTree = "<group>"; };
+		4312EC062798241200FD86D6 /* Tamagotchi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tamagotchi.swift; sourceTree = "<group>"; };
 		435BC543279817C600A79C4C /* Tamagotchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tamagotchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		435BC546279817C600A79C4C /* TamagotchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiApp.swift; sourceTree = "<group>"; };
 		435BC548279817C700A79C4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,7 +44,6 @@
 		435BC54D279817CF00A79C4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		435BC54F279817CF00A79C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		435BC554279817D000A79C4C /* TamagotchiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagotchiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		435BC558279817D000A79C4C /* TamagotchiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiTests.swift; sourceTree = "<group>"; };
 		435BC55A279817D000A79C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		435BC55F279817D000A79C4C /* TamagotchiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagotchiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		435BC563279817D000A79C4C /* TamagotchiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiUITests.swift; sourceTree = "<group>"; };
@@ -97,6 +100,7 @@
 			children = (
 				435BC546279817C600A79C4C /* TamagotchiApp.swift */,
 				435BC548279817C700A79C4C /* ContentView.swift */,
+				4312EC062798241200FD86D6 /* Tamagotchi.swift */,
 				435BC54A279817CF00A79C4C /* Assets.xcassets */,
 				435BC54F279817CF00A79C4C /* Info.plist */,
 				435BC54C279817CF00A79C4C /* Preview Content */,
@@ -115,8 +119,8 @@
 		435BC557279817D000A79C4C /* TamagotchiTests */ = {
 			isa = PBXGroup;
 			children = (
-				435BC558279817D000A79C4C /* TamagotchiTests.swift */,
 				435BC55A279817D000A79C4C /* Info.plist */,
+				4312EBFE279823B800FD86D6 /* TamagotchiTest.swift */,
 			);
 			path = TamagotchiTests;
 			sourceTree = "<group>";
@@ -200,6 +204,7 @@
 					};
 					435BC553279817D000A79C4C = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 						TestTargetID = 435BC542279817C600A79C4C;
 					};
 					435BC55E279817D000A79C4C = {
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				435BC549279817C700A79C4C /* ContentView.swift in Sources */,
+				4312EC072798241200FD86D6 /* Tamagotchi.swift in Sources */,
 				435BC547279817C600A79C4C /* TamagotchiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435BC559279817D000A79C4C /* TamagotchiTests.swift in Sources */,
+				4312EC0B2798243600FD86D6 /* Tamagotchi.swift in Sources */,
+				4312EBFF279823B800FD86D6 /* TamagotchiTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +466,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TamagotchiTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -469,6 +477,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orcaEnterprises.TamagotchiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tamagotchi.app/Tamagotchi";
@@ -480,6 +489,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TamagotchiTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

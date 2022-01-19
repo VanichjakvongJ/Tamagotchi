@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var test = false
+    
     var body: some View {
-        Text("¿Dónde está la biblioteca?")
+        VStack {
+            Form {
+                Text("Tamagotchi")
+                    .padding()
+                
+                Section {
+                    Button("Ouais", action: {})
+                    Toggle("Thank the bus driver", isOn: $test)
+                }
+            }
+                
+        }
     }
 }
 
