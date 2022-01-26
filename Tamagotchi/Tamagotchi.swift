@@ -7,33 +7,58 @@
 
 import Foundation
 
-class Tamagotchi {
-    var happy = 0 {
+struct Tamagotchi {
+    var age = 0 //0-23
+    var weight = 0.0
+    
+    var discipline = 0 { //0-13
         didSet {
-            if happy < 0 {
-                happy = 0
-            }
-            else if happy > 4 {
-                happy = 4
+            if discipline < 0 {
+                discipline = 0
+            } else if discipline > 13 {
+                discipline = 13
             }
         }
     }
-    var hungry = 0 {
+    var hunger = 0 { //0-4
         didSet {
-            if hungry < 0 {
-                hungry = 0
+            if hunger < 0 {
+                hunger = 0
+            } else if hunger > 4 {
+                hunger = 4
             }
-            else if hungry > 4 {
-                hungry = 4
+        }
+    }
+    var happiness = 0 { //0-4
+        didSet {
+            if happiness < 0 {
+                happiness = 0
+            } else if happiness > 4 {
+                happiness = 4
             }
         }
     }
     
     
     
-        
-    
-    func eatSnack() {
-        hungry += 1
+    mutating func feedMeal() {
+        hunger += 2
+    }
+    mutating func feedSnack() {
+        hunger += 1
+    }
+    mutating func play() {
+        happiness += 1
+    }
+    mutating func scold() {
+        discipline += 1
+    }
+
+    mutating func passTime() {
+        age += 1
+        weight += 2.4
+        discipline -= 2
+        hunger -= 1
+        happiness -= 1
     }
 }
